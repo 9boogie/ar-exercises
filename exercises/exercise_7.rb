@@ -10,3 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+#puts @store1.employees.create(first_name: 'James', last_name: "Langley", hourly_rate: 60).valid?
+
+@store7 = Store.new(name: "Wi")
+
+@store7.valid?
+puts @store7.errors.messages
